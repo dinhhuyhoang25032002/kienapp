@@ -1,0 +1,44 @@
+.homepage-body {
+
+    .homepage-content {
+        .content-left {
+            //height: 120vh;
+            width: 60%;
+            height: 65vh;
+            border: 1px solid green;
+
+            .btn-started {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .btn-start {
+                    margin-top: 21px;
+                    width: fit-content;
+                    padding: 5px 13px;
+                    border-radius: 5px;
+                    border: 1px solid #504d4d;
+                    background: black;
+                    color: white;
+                    font-family: "Roboto", sans-serif;
+
+                    &:hover {
+                        // opacity: 0.75;
+                        box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.3019607843);
+                    }
+                }
+            }
+        }
+
+        .content-right {
+            width: 35%;
+            border: 1px solid red;
+
+            .btn-group1 {
+                display: flex;
+                gap: 15px;
+            }
+        }
+    }
+}

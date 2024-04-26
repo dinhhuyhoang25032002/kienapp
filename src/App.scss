@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;   
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.display-space{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
